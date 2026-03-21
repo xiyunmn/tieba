@@ -1,9 +1,9 @@
 name: 百度贴吧自动签到
 
-on:
+于:
   schedule:
-    - cron: '0 2,3 * * *'  # 每天 UTC 2:00 3:00 运行 (北京时间 10:00 11:00)
-  workflow_dispatch:     # 支持手动触发
+    - cron: '0 16 * * *'  # 每天 UTC 16:00 运行 (北京时间 00:00)
+  workflow_dispatch:
 
 jobs:
   signin:
